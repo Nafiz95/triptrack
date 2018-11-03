@@ -12,5 +12,5 @@
 </p>
 <h3> FUNCTIONALITIES THAT ACTUALLY WORK FOR ASSIGNMENT PURPOSES </h4>
 <h4> HOME PAGE </h4>
-<p align="center"><img src="https://icon-icons.com/icons2/706/PNG/512/sailing-boat_icon-icons.com_61838.png" width="250" height="250"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955201-4e957c80-dfbe-11e8-80b4-16d7e2a329a3.JPG"></p>
  
