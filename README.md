@@ -64,3 +64,13 @@
 <h5> RESET BUTTON </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955832-e6e42f00-dfc7-11e8-9a39-7e92279273a7.JPG"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955839-0c713880-dfc8-11e8-90f5-884fa69eb042.JPG"></p>
+<h5> Trip-out BUTTON { leads back to index.html }
+<hr>
+<h3> CLIENT SIDE TECHS: </h3>
+<ul>
+ <li>HTML-CSS-JS</li>
+ <li>Jquery Libs </li>
+ <li>localStorage</li>
+ <li>Bootstrap 4</li>
+ <li>FontAwesome Libs/li>
+</ul>
