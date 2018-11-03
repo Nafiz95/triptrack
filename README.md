@@ -59,3 +59,5 @@
 <h5> SHOW SUMMARY BUTTON </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955750-d54e5780-dfc6-11e8-804e-872404b1cac9.JPG"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955767-13e41200-dfc7-11e8-80b4-361fc8cb38c4.JPG"></p>
+<h5> PRINT BUTTON </h5>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955799-645b6f80-dfc7-11e8-9df1-0d554bb4b1b2.JPG"></p>
