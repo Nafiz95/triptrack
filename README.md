@@ -25,6 +25,7 @@
 <ul>
  <li> Default Email : nafiz@gmail.com Default Password: WAKANDA</li>
  <li> Other inputs will throw Alert() </li>
+ <li> Correct input and clicked initiate will take to dashBoard.html </li>
  <li> Did not yet handle "Forgot Password". Kept for later implementation </li>
 </ul>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955219-b0ee7d00-dfbe-11e8-8799-4d9bdc8941ba.JPG"></p>
@@ -47,3 +48,7 @@
  <li> Calculator for quick maths </li>
  <li> Buttons: Save= saves to localstorage Show Summary: Shows a summary(fetching from local storage) Reset: Deletes LocalStorage </li>
 </ul>
+<h5> DATE PICKER </h5>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955605-b8b12000-dfc4-11e8-9aaf-f7fb232be0f0.JPG"></p>
+<h5> DYNAMIC TABLE CONTENT </h5>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955605-b8b12000-dfc4-11e8-9aaf-f7fb232be0f0.JPG"></p>
