@@ -50,7 +50,7 @@
 </ul>
 <h5> DATE PICKER </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955605-b8b12000-dfc4-11e8-9aaf-f7fb232be0f0.JPG"></p>
-<h5> DYNAMIC TABLE CONTENT </h5>
+<h5> DYNAMIC TABLE CONTENT { add item will add to localStorage. Remove will delete specific item from localStorage } </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955636-3e34d000-dfc5-11e8-814d-9f4ba7cbf9ad.JPG"></p>
 <h5> SAVE BUTTON {saves all user given data to localStorage } </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955689-cfa44200-dfc5-11e8-98ab-584d685918ca.JPG"></p>
@@ -60,4 +60,6 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955750-d54e5780-dfc6-11e8-804e-872404b1cac9.JPG"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955767-13e41200-dfc7-11e8-80b4-361fc8cb38c4.JPG"></p>
 <h5> PRINT BUTTON </h5>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955799-645b6f80-dfc7-11e8-9df1-0d554bb4b1b2.JPG"></p>
+<h5> RESET BUTTON </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955799-645b6f80-dfc7-11e8-9df1-0d554bb4b1b2.JPG"></p>
