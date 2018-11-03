@@ -1,0 +1,138 @@
+#body
+{
+    background-image: url(https://cdn.hipwallpaper.com/i/59/80/vdyUTl.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    /*background-color: #050c3d;*/
+    
+    
+}
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   font-weight: bold;
+   text-align: center;
+}
+/*================================ INIT =====================================*/
+#nav
+{
+   /* background-color: blue;*/
+    width: 12vw;
+    height: 80vh;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    overflow-x: hidden;
+    
+    
+}
+#usrimg
+{
+    /*background-color: yellow;*/
+    border-style: solid;
+    border-color: #00ffd0;
+    width: 12vw;
+    height: 20vh;
+    border-radius: 40%;
+    margin-bottom: 5%;
+}
+#usrop
+{
+    /*background-color: green;*/
+    width: 26vh;
+    height: 55vh;
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+#main
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    /*background-color: red;*/
+    width: 70vw;
+    height: 80vh;
+    float: left;
+}
+.btn
+{
+    font-weight: bold;
+    margin-bottom: 10%;
+    padding:5px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+}
+#plan-container
+{
+    /*background-color: yellow;*/
+    width: 24vw;
+    height: 80vh;
+    float: left;
+    
+}
+#plan
+{
+    /*background-color: blue;*/
+    width: 24vw;
+    height: 30vh;
+    margin-bottom: 4%;
+    
+}
+#calculat
+{
+    background-color: green;
+    width:24vw;
+    height: 45vh;
+    
+}
+#budget-list
+{
+    /*background-color: black;*/
+    width: 40vw;
+    height: 80vh;
+    float: left;
+    margin-left:8%;
+    
+}
+
+#table
+{
+    overflow: auto;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 32px;
+}
+#summary
+{
+    /*background-color: blue;*/
+    width: 40vw;
+    height: 35vh;
+    margin-top: 3%;
+  
+}
+#summaryBtn
+{
+    /*background-color: green;*/
+    width: 40vw;
+    height: 35vh;
+}
+#smry
+{
+    background-color: white;
+    width: 40vw;
+    height: 35vh;
+    border-radius: 24px;
+    overflow: auto;
+    
+}
+#dataTable
+{
+    border: 1px solid black;
+    
+}
+th,td {
+    text-align: center;
+}

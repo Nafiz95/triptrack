@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="icon" type="image/png" href="https://icon-icons.com/icons2/706/PNG/512/sailing-boat_icon-icons.com_61838.png" sizes="16x16">
+    <title>TripTrack</title>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/dac.css">
+    <link rel="stylesheet" href="./CSS/calc.css">
+    <!--BS4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css" rel="stylesheet" type="text/css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+   
+    
+    
+    
+</head>
+
+<body>
+    <div id="body">
+        <div id="nav">
+            <div id ="usrimg">
+                
+            </div>
+            <div id ="usrop">
+                 <button type="button" class="btn btn-primary">PLANS</button>
+                 <button type="button" class="btn btn-success">DIARY</button>
+                 <button type="button" class="btn btn-warning">CALENDAR</button>
+                 <button type="button" class="btn btn-danger" onclick="window.location.href='index.html'">Trip-out</button>
+            </div>
+        </div>
+        <div id="main">
+            <div id="plan-panel">
+                <div id="plan-container">
+                    
+                    <div id="plan">
+                        <form>
+                          <div class="form-group">
+                            <input type="" class="form-control" id="tripNames" aria-describedby="emailHelp" placeholder="Name your trip!">
+                          </div>
+                        </form>
+                        <label>Select Date Of Travel: </label>
+                        <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                            <input class="form-control" type="text" readonly />
+                            <span class="input-group-addon"><i class="fas fa-calendar-alt" style="font-size:30px;padding:3px;color:white"></i></span>
+                        </div>
+                        <!--<button type="button" class="btn btn-warning btn-block">SAVE</button>-->
+                        <div id="hotel">
+                            <form>
+                              <div class="form-group" style="float:left;padding:5px;">
+                                <input type="" class="form-control" id="hotelNames" aria-describedby="emailHelp" placeholder="Hotel name" style="width:150px";>
+                              </div>
+                            </form>
+                            <form>
+                              <div class="form-group" style="float:left;padding:5px;">
+                                <input type="" class="form-control" id="hotelPrice" aria-describedby="emailHelp" placeholder="Rent/night" style="width:100px";>
+                              </div>
+                             </form>
+                            
+                        </div>
+
+                    </div>
+                    
+                    	<fieldset id="container">
+                    		<form name="calculator">
+                    
+                    			<input id="display" type="text" name="display" readonly/>
+                    
+                    			<input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
+                    			<input class="button digits" type="button" value="8" onclick="calculator.display.value += '8'">
+                    			<input class="button digits" type="button" value="9" onclick="calculator.display.value += '9'">
+                    			<input class="button mathButtons" type="button" value="+" onclick="calculator.display.value += ' + '">
+                    			<br>
+                    			<input class="button digits" type="button" value="4" onclick="calculator.display.value += '4'">
+                    			<input class="button digits" type="button" value="5" onclick="calculator.display.value += '5'">
+                    			<input class="button digits" type="button" value="6" onclick="calculator.display.value += '6'">
+                    			<input class="button mathButtons" type="button" value="-" onclick="calculator.display.value += ' - '">
+                    			<br>
+                    			<input class="button digits" type="button" value="1" onclick="calculator.display.value += '1'">
+                    			<input class="button digits" type="button" value="2" onclick="calculator.display.value += '2'">
+                    			<input class="button digits" type="button" value="3" onclick="calculator.display.value += '3'">
+                    			<input class="button mathButtons" type="button" value="x" onclick="calculator.display.value += ' * '">
+                    			<br>
+                    			<input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
+                    			<input class="button digits" type="button" value="0" onclick="calculator.display.value += '0'">
+                    			<input class="button mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+                    			<input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += ' / '">
+                    		</form>
+                    	</fieldset>
+                </div>
+                </div>
+                
+                <div id="budget-list">
+                    <div id="table">
+                        <table class="table table-dark table-hover" id="participantTable">
+                          <thead>
+                            <tr>
+                              <th>&nbsp;</th>
+                              <th scope="col">Item</th>
+                              <th scope="col">Quantity</th>
+                              <th scope="col">Price</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody id="tbd">
+                           
+                          </tbody>
+                          
+                        </table>
+                    </div>
+                    <div id="summary">
+                        <div id="summaryBtn" align="center">
+                             
+                             <button type="button" class="btn btn-dark" style="color:yellow;" id="save" >SAVE</button>
+                             <button type="button" class="btn btn-warning" id="show">SHOW SUMMARY</button>
+                             <button type="button" class="btn btn-danger" id="reset">RESET</button>
+                             
+                        </div>
+                        
+                        <div id="smry" align="center">
+                            <h2><span id='tN'> </span></h2>
+                            <h3><span id='tD'> </span></h3>
+                            <h4><span id='tH'></span></h4>
+                            <h4><span id='tP'></span></h4>
+                            
+                            <table class="table table-striped" id="dataTable">
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                        </tr>
+                                </thead>
+                
+                                <tbody>
+                
+                                </tbody>
+                            </table>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" style="color:white;font-weight:bold;"><span id="author"></span> ©<span id="footerdate"></span></div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="./JS/daj.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,156 @@
+#body
+{
+    background-image: url(https://images.pexels.com/photos/556416/pexels-photo-556416.jpeg?cs=srgb&dl=bridge-clouds-cloudy-556416.jpg&fm=jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   font-weight: bold;
+   text-align: center;
+}
+
+/*================================ INIT =====================================*/
+#intro
+{
+    width: 50vw;
+    height: 15vh;
+    color: yellow;
+    margin:0 auto;
+    padding-top: 4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    text-shadow: 2px 2px 4px #000000;
+}
+#div1
+{
+    position:absolute;
+    height:20vh;
+    width:30vw;
+    /*background-color: red;*/
+    -webkit-animation: wobble 3s ; /* Safari 4.0 - 8.0 */
+    animation: wobble 3s;
+}
+@media only screen and (max-width: 730px) {
+    #div1 {
+        width:60vw;
+    }
+}
+@-webkit-keyframes wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+#div2
+{
+    position:absolute;
+    height:60vh;
+    width:30vw;
+    border-radius: 32px;
+    background-color: #0e6300;
+
+    opacity: 0.95;
+    visibility: hidden;
+    -webkit-animation: zoomIn 5s ; /* Safari 4.0 - 8.0 */
+    animation: zoomIn 5s;
+}
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 730px) {
+    #div2 {
+        width:60vw;
+    }
+}
+#logins
+{
+    height: auto; 
+    width: auto; 
+    position:absolute;
+    margin:0 auto;
+    padding-left: 35%;
+    padding-top: 4%;
+    display: block;
+}
+#loginbtns
+{
+    background-color: black;
+    border-radius: 16px;
+    opacity: 0.9;
+    padding-left: 8%;
+    margin-top:40%;
+    
+}
+.btn
+{
+    font-weight: bold;
+    margin: 12px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+}
+.clearfix {
+    overflow: auto;
+}
+
+/*================================ LOGIN =====================================*/
+.form-group
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+#g2gdashbtns
+{
+    padding-left: 6%;
+}
+
+
+
+
+
+
