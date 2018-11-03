@@ -12,6 +12,11 @@
 </p>
 <h3> FUNCTIONALITIES THAT ACTUALLY WORK FOR ASSIGNMENT PURPOSES </h4>
 <h4> HOME PAGE </h4>
+<h5> NOTE </h5>
+<ul>
+ <li> Trip-in takes to login page </li>
+ <li> Get Trip-ed takes to sign up page </li>
+</ul>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955201-4e957c80-dfbe-11e8-80b4-16d7e2a329a3.JPG"></p>
 <h4> LOGIN FORM (DYNAMICALLY USING DIV DEPENDING UPON SELECTION) </h4>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955219-b0ee7d00-dfbe-11e8-8799-4d9bdc8941ba.JPG"></p>
