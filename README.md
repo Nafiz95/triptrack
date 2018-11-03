@@ -62,4 +62,5 @@
 <h5> PRINT BUTTON </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955799-645b6f80-dfc7-11e8-9df1-0d554bb4b1b2.JPG"></p>
 <h5> RESET BUTTON </h5>
-<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955799-645b6f80-dfc7-11e8-9df1-0d554bb4b1b2.JPG"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955832-e6e42f00-dfc7-11e8-9a39-7e92279273a7.JPG"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955839-0c713880-dfc8-11e8-90f5-884fa69eb042.JPG"></p>
