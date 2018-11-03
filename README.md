@@ -37,9 +37,13 @@
  <li> Add Me button will remain disabled until user agrees with Terms & Conditions </li>
 </ul>
 <hr>
-<h4> SIGNUP FORM (DYNAMICALLY USING DIV DEPENDING UPON SELECTION) </h4>
-<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955249-396d1d80-dfbf-11e8-8522-a20b7269a3d2.JPG"></p>
+<h4> DASHBOARD </h4>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955495-3aa04980-dfc3-11e8-881f-da7d88cdc20e.JPG"></p>
 <h5> NOTE </h5>
 <ul>
- <li> Did not yet handle any functionalities. Just for Demo Purposes. Kept for later implementation </li>
+ <li> For time being, the plan panel opens up at start-up since other functionalities are kept for later implementation </li>
+ <li> LocalStorage used on all input forms </li>
+ <li> Table on the top right corner has been made dynamic to add/delete list of items </li>
+ <li> Calculator for quick maths </li>
+ <li> Buttons: Save= saves to localstorage Show Summary: Shows a summary(fetching from local storage) Reset: Deletes LocalStorage </li>
 </ul>
