@@ -34,6 +34,7 @@
 <h5> NOTE </h5>
 <ul>
  <li> Did not yet handle any functionalities. Just for Demo Purposes. Kept for later implementation </li>
+ <li> Add Me button will remain disabled until user agrees with Terms & Conditions </li>
 </ul>
 <hr>
 <h4> SIGNUP FORM (DYNAMICALLY USING DIV DEPENDING UPON SELECTION) </h4>
