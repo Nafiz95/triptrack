@@ -56,3 +56,6 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955689-cfa44200-dfc5-11e8-98ab-584d685918ca.JPG"></p>
 <h5> LOCAL STORAGE {two storages for better manipulations } </h5>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955718-3a557d80-dfc6-11e8-8656-46992ddc4c42.JPG"></p>
+<h5> SHOW SUMMARY BUTTON </h5>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955750-d54e5780-dfc6-11e8-804e-872404b1cac9.JPG"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955750-d54e5780-dfc6-11e8-804e-872404b1cac9.JPG"></p>
