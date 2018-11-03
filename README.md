@@ -28,5 +28,17 @@
  <li> Did not yet handle "Forgot Password". Kept for later implementation </li>
 </ul>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955219-b0ee7d00-dfbe-11e8-8799-4d9bdc8941ba.JPG"></p>
+<hr>
 <h4> SIGNUP FORM (DYNAMICALLY USING DIV DEPENDING UPON SELECTION) </h4>
 <p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955249-396d1d80-dfbf-11e8-8522-a20b7269a3d2.JPG"></p>
+<h5> NOTE </h5>
+<ul>
+ <li> Did not yet handle any functionalities. Just for Demo Purposes. Kept for later implementation </li>
+</ul>
+<hr>
+<h4> SIGNUP FORM (DYNAMICALLY USING DIV DEPENDING UPON SELECTION) </h4>
+<p align="center"><img src="https://user-images.githubusercontent.com/24278948/47955249-396d1d80-dfbf-11e8-8522-a20b7269a3d2.JPG"></p>
+<h5> NOTE </h5>
+<ul>
+ <li> Did not yet handle any functionalities. Just for Demo Purposes. Kept for later implementation </li>
+</ul>
